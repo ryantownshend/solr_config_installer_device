@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='scid',
-    version='0.1',
+    version='0.2',
     description='Tool for installing solr config files',
     url='https://github.com/ryantownshend/solr_config_installer_device',
     author='Ryan Townshend',
@@ -12,7 +12,7 @@ setup(
         'click>=6.7',
         'click-log>=0.2.1',
     ],
-    py_modules=['honk'],
+    py_modules=['scid'],
     entry_points={
         'console_scripts': [
             'scid = scid:main'
