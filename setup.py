@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='scid',
-    version='0.2',
+    version='0.3',
     description='Tool for installing solr config files',
     url='https://github.com/ryantownshend/solr_config_installer_device',
     author='Ryan Townshend',
